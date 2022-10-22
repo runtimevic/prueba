@@ -5,6 +5,8 @@
 VAR
 	contador1 : INT;
 	contador2 : INT;
+	
+	contador3 : INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -12,6 +14,8 @@ END_VAR
 
 contador2 := contador2 + 1;
 contador2 := contador2 + 1;
+
+contador3 := contador3 + 1;
 ]]></ST>
     </Implementation>
   </POU>
