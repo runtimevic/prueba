@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Refactors>
+  <Renames>
+    <RenamedSymbol>
+      <Type guid="46e1726c-ab77-4544-83e9-8f705e970a4a">MAIN</Type>
+      <From>contador</From>
+      <To>contador1</To>
+    </RenamedSymbol>
+  </Renames>
+</Refactors>

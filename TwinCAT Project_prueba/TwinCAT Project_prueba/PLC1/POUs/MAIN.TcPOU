@@ -3,11 +3,15 @@
   <POU Name="MAIN" Id="{46e1726c-ab77-4544-83e9-8f705e970a4a}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
-	contador : INT;
+	contador1 : INT;
+	contador2 : INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[contador := contador + 1;
+      <ST><![CDATA[contador1 := contador1 + 1;
+
+contador2 := contador2 + 1;
+contador2 := contador2 + 1;
 ]]></ST>
     </Implementation>
   </POU>
